@@ -1,0 +1,21 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 80px;
+  background-color: white;
+  box-shadow: 0px -4px 6px rgba(0, 0, 0, 0.06);
+
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+}
+
+.footer_counter {
+  font-family: 'Recursive', cursive;
+  font-size: 20px;
+  font-weight: 500;
+}

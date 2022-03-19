@@ -1,0 +1,31 @@
+.home {
+  height: 100%;
+  width: 100%;
+  background-color: #fb6b6b;
+  position: fixed;
+  z-index: 3;
+  gap: 6rem;
+}
+
+.home_logo {
+  width: 200px;
+  gap: 1rem;
+}
+.home_logo__image {
+  width: 85px;
+}
+
+.home_button {
+  width: 200px;
+  height: 50px;
+  font-family: 'Recursive', cursive;
+  font-size: 20px;
+  font-weight: 500;
+  color: #d70900;
+  background-color: #ffffff;
+  border: 2px solid #d70900;
+  border-radius: 8px;
+}
+.home_button:hover {
+  background-color: #ffeaea;
+}
