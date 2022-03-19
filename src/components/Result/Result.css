@@ -1,0 +1,20 @@
+.result_header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.result_header__icon {
+  width: 30px;
+}
+
+.result_header__title {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.result_text {
+  text-align: center;
+  font-size: 18px;
+}

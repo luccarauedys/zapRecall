@@ -1,4 +1,5 @@
 import './Footer.css';
+import Result from '../Result/Result';
 import IconBad from '../../images/bad.svg';
 import IconMedium from '../../images/medium.svg';
 import IconGood from '../../images/good.svg';
@@ -6,7 +7,12 @@ import IconGood from '../../images/good.svg';
 export default function Footer({ situations }) {
   return (
     <footer className="footer">
-      <p className="footer_counter">{situations.length}/8 CONCLUÍDOS</p>
+      {situations.length === 8 ? (
+        <Result situations={situations} />
+      ) : (
+        <p className="footer_counter">{situations.length}/8 CONCLUÍDOS</p>
+      )}
+
       <div className="footer_icons">
         {situations.map((situation, index) => (
           <IconFooter key={index} situation={situation} />
